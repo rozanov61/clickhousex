@@ -27,10 +27,10 @@ defmodule Clickhousex.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:db_connection, "~> 2.0"},
+      {:db_connection, ">= 2.4.0"},
       {:mint, "~> 1.0"},
       {:castore, "~> 0.1"},
-      {:jason, "~> 1.0"},
+      {:jason, ">= 1.2.2"},
       {:ex_doc, "~> 0.22", only: :dev},
       {:benchee, "~> 1.0", only: [:dev, :test]},
       {:credo, "~> 1.5", only: :dev}
